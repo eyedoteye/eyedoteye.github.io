@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>SoundBall #001</title>
-  <meta name="description" content="I’m still thinking about the format for my posts on the site, and how to find a balance between the commitment effort for each category type. I think I want ...">
+  <title>SoundBall #002</title>
+  <meta name="description" content="Getting the feel right between multiple input types and platforms is super tricky business. .. I don’t even know if I’m covering all cases. I’ve decided I ha...">
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/devlog/2017/06/10/SoundBall.html">
+  <link rel="canonical" href="https://eyedoteye.github.io/devlog/2017/06/18/SoundBall-002.html">
   <link rel="alternate" type="application/rss+xml" title="i.i" href="/feed.xml">
   
   
@@ -68,73 +68,63 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">SoundBall #001</h1>
+    <h1 class="post-title" itemprop="name headline">SoundBall #002</h1>
     <p class="post-meta">
-      <time datetime="2017-06-10T00:00:00-04:00" itemprop="datePublished">
+      <time datetime="2017-06-18T00:00:00-04:00" itemprop="datePublished">
         
-        Jun 10, 2017
+        Jun 18, 2017
       </time>
       </p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>I’m still thinking about the format for my posts on
-the site, and how to find a balance between the commitment effort for each
-category type. I think I want the articles to be even more fleshed out than they
-are now, but I’d like the devlogs to be easier to just jot some thoughts into.
-At the same time, I don’t want to leave without at least some interesting things
-to give!</p>
+    <p>Getting the feel right between multiple input types and platforms is super
+tricky business. .. I don’t even know if I’m covering all cases. I’ve decided I
+hate webdev.</p>
 
 <hr />
-<p>So I’ve been working on some <em>Playful Media</em> lately. Have been using javascript,
-and boy oh boy are there some weird tradeoffs. Things are easier to get runing
-on the screen, but the screen is wonky, and the latency is wonky, and the wonk
-is wonky. BUT, I’ve been making some good progress with wrenching out all those
-wonks!</p>
+<p>When I’m having an anxious period. It seems I spend half the day re-centering
+myself, and then I can spend the second half actually doing the cool things I
+want to do. ;_;</p>
 
-<p>This was my first iteration of the project:</p>
+<p>The most annoying part of anxiety is how much of your dedication it takes up.
+Every now and then I’ll get this heavier bout’ of it, and I always think, ah yes, this
+must be the last time, but alas it crawls back in just to remind me it’s
+still there.</p>
 
-<p><img src="/assets/SoundBall001A.gif" alt="SoundBall First Iteration" class="img-responsive" /></p>
-
-<p>The gradient represents rising sound frequencies, and the ball is used to select
-which one will currently be played through the speakers. The slider on the
-bottom swaps between a linear view of the frequencies and a view that groups the
-frequencies into constant pianokey widths (represented by the white lines).</p>
-
-<p>At this point, I realized the current direction of things didn’t really feel
-like it was teaching me about the relationship between frequencies and notes.
-I wanted to create an experience that gave an intuitive and wordless
-understanding! So, I pulled out some paper and began thinking about some actual
-design:</p>
-
-<p><img src="/assets/SoundBall001B.jpg" alt="SoundBall Design Doc" class="img-responsive" /></p>
-
-<p>Re-iterating was a breeze thanks to the understanding and helpful functions I
-developed during the first exploration. However, still being new to canvas-dev,
-I encountered a lot of resistance on getting it to work properly with
-mobile.</p>
-
-<p>The touch was unresponsive, the canvas was offscreen, and even when I get
-everything to work, the latency was cray!</p>
-
-<p>Despite all that, I had a lot of fun navigating through the challenges. And, I’m
-back to a point where I can focus again on <em>how to make a virtual ball feel
-heavy</em>. A topic I’m really excited to write about later!</p>
-
-<p>The current iteration:</p>
-
-<p><img src="/assets/SoundBall001C.jpg" alt="SoundBall Second Iteration" class="img-responsive" /></p>
+<p>It’s not all bad. In a way, it’s a great force pushing me towards healthier habits..<br />
+In a way, it’s also super dummie. &gt;:O</p>
 
 <hr />
-<p>I’m taking this weekend to do a little exploration into unity. Since latency is
-so essential to gamefeel, I’m hoping I can get more performant prototypes
-through their system instead…<br />
-I’ve actually been trying to do less code over the weekend and more reading,
-mindfulness, etc, but that mental context switching is a skill still on its
-training wheels!</p>
+<p>Despite all the nonsense, I’ve gotten a working prototype of heaviness!
+It took a lot of rignamrooing, and I found taking a step back and really looking
+at what I was doing helped me solve out some of the trickier bits.<br />
+I realized game systems don’t have to mimic reality!<br />
+I didn’t need to mimic how physics worked, I could make up my own rules and just
+<em>emulate</em> what I needed to!<br />
+<img src="/assets/SoundBall002A.jpg" alt="SoundBall Design Doc" class="img-responsive" /></p>
 
-<p>I’m i.i,<br />
-and okay bye</p>
+<p><img src="/assets/SoundBall002B.gif" alt="SoundBall Second Iteration" class="img-responsive" /></p>
+
+<p>I’ve also re-added some basic audio. As a toy, it’s now actually starting to
+become kind of fun!
+There’s two interesting things about having the frequencies increase upwards.</p>
+<ol>
+  <li>I associate the ground with bassier frequencies, most likely because lower
+frequencies travel very well through solids and start to become feeling just
+as much as they are a sound.</li>
+  <li>When the ball drops, the frequency being played drops with it, mimicking the
+falling whistle sound effect often used in creative media.</li>
+</ol>
+
+<hr />
+<p>Between learning unity, swedish, and keeping up with all my other new and
+increasingly added routines, I think I’m burning out! I took some time to
+reflect and have decided creating mandatory time for leisure and relaxation is a
+good idea. (And not task oriented leisure like I have been tending to do!) 
+So, I will not work on this project during the weekend. And I’ll try my best to
+somehow manage all of these routines, maybe by cutting the expected load for
+each day. I’ll see next week how that plays out.</p>
 
   </div>
 
