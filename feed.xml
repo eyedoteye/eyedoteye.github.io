@@ -1,5 +1,65 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-06-18T14:10:18-04:00</updated><id>http://localhost:4000/</id><title type="html">i.i</title><subtitle>Wow check out my cool website.
-</subtitle><entry><title type="html">SoundBall #002</title><link href="http://localhost:4000/devlog/2017/06/18/SoundBall-002.html" rel="alternate" type="text/html" title="SoundBall #002" /><published>2017-06-18T00:00:00-04:00</published><updated>2017-06-18T00:00:00-04:00</updated><id>http://localhost:4000/devlog/2017/06/18/SoundBall-002</id><content type="html" xml:base="http://localhost:4000/devlog/2017/06/18/SoundBall-002.html">&lt;p&gt;Getting the feel right between multiple input types and platforms is super
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-06-24T21:30:21-04:00</updated><id>http://localhost:4000/</id><title type="html">i.i</title><subtitle>Wow check out my cool website.
+</subtitle><entry><title type="html">SoundBall #003: Iteration 2 Complete</title><link href="http://localhost:4000/devlog/2017/06/23/SoundBall-003.html" rel="alternate" type="text/html" title="SoundBall #003: Iteration 2 Complete" /><published>2017-06-23T00:00:00-04:00</published><updated>2017-06-23T00:00:00-04:00</updated><id>http://localhost:4000/devlog/2017/06/23/SoundBall-003</id><content type="html" xml:base="http://localhost:4000/devlog/2017/06/23/SoundBall-003.html">&lt;p&gt;This week I’ve finished up the second iteration of this mindful
+sound-piano-thing experiment. And now, for a post-mortem!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/SoundBall003A.gif&quot; alt=&quot;SoundBall Second Iteration&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;First, the technicals:&lt;br /&gt;
+I’m not sure javascript was the right fit for me for prototyping.
+It’s quick to develop, and quick to share, but only for the most straightforward
+of ideas. There are also some latency issues, even though I’m not doing
+anything particularly intensive. And that’s no good!
+As I’m not actually concerned with the quick-sharing aspect, I’m planning on
+making a switch over to unity.
+I think both approaches have a bit of a learning curve before an acceptable
+prototyping speed can be achieved, but unity promises far more, in terms of
+testing more complex ideas.&lt;/p&gt;
+
+&lt;p&gt;Now, the design:&lt;br /&gt;
+Although there is &lt;em&gt;some&lt;/em&gt; substance in the current iteration, as a whole, the design is
+currently unsuccesful.&lt;/p&gt;
+
+&lt;p&gt;I like the exploration into heavyness, but the slipping part is unnessential to
+this plaything’s purpose. Originally it was there as an ‘encouragement’ for the
+player to drop the ball and see the frequencies collapse into a note, however in
+practice, this slipping is frustrating, and since the center of the ball
+determines the current playing frequency, it only serves to weaken the mindful
+connection between sound and player.&lt;/p&gt;
+
+&lt;p&gt;The ‘encouragement’ has also been replaced by the starting state of the ball.
+I imagine that the start screen for this game will have the ball hovering, and
+on start the ball will fall and collapse down the first note. This will clearly
+demonstrate what the main functionality of this plaything is.&lt;/p&gt;
+
+&lt;p&gt;Also, the intuition of the exponentially increasing frequency of each ascending
+note is largely lost. The game is currently too much of a move this ball above
+the line and drop kind of deal. It lacks an emphasis in the exploration needed
+to imbue a mindful play.&lt;/p&gt;
+
+&lt;p&gt;Graphically, putting aside roughness due to being a prototype,
+the gradients need to be expanded into something more visually meaningful.
+Currrently, the compressed compression that they hold is visually lost. (Also, they are
+somewhat incorrect, but that’s not as important as it can be patched up later.)&lt;/p&gt;
+
+&lt;p&gt;It is also non obvious that the piano keys are pressable. It is most certainly
+worth the effort to improve this. Changing the keys to be more piano-like could
+solve this problem, as well as improve the connection between frequency and note
+for the player.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;You can play this version by clicking
+&lt;a href=&quot;http://i.i.001.run/PlayfulMedia001/&quot;&gt;here&lt;/a&gt;.
+And view the source by clicking
+&lt;a href=&quot;https://github.com/eyedoteye/PlayfulMedia001&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;I think I will spend more time exploring heavyness as a separate project. It’s
+pretty interesting!
+But also, I will now spend time re-designing a bunch of things and
+re-approaching this in Unity! It should serve as a good project for learning the
+ropes.&lt;/p&gt;</content><author><name></name></author><category term="devlog" /><summary type="html">This week I’ve finished up the second iteration of this mindful sound-piano-thing experiment. And now, for a post-mortem!</summary></entry><entry><title type="html">SoundBall #002</title><link href="http://localhost:4000/devlog/2017/06/18/SoundBall-002.html" rel="alternate" type="text/html" title="SoundBall #002" /><published>2017-06-18T00:00:00-04:00</published><updated>2017-06-18T00:00:00-04:00</updated><id>http://localhost:4000/devlog/2017/06/18/SoundBall-002</id><content type="html" xml:base="http://localhost:4000/devlog/2017/06/18/SoundBall-002.html">&lt;p&gt;Getting the feel right between multiple input types and platforms is super
 tricky business. .. I don’t even know if I’m covering all cases. I’ve decided I
 hate webdev.&lt;/p&gt;
 
@@ -450,24 +510,4 @@ We’re looking for a demonstration of your technical abilities as well as your 
 
 &lt;p&gt;All in all, everything I wanted to do. I’m in. This project will be done in C.&lt;/p&gt;
 
-&lt;p&gt;&lt;small&gt;&lt;em&gt;One last self imposed caveat, DEADLINE: END OF MAY&lt;/em&gt;&lt;/small&gt;&lt;/p&gt;</content><author><name></name></author><category term="article" /><category term="challenge" /><category term="gamefeel" /><summary type="html">Do you ever get that feeling of fervor?</summary></entry><entry><title type="html">SphereKoan #001</title><link href="http://localhost:4000/devlog/2017/05/02/SphereKoan-001.html" rel="alternate" type="text/html" title="SphereKoan #001" /><published>2017-05-02T00:00:00-04:00</published><updated>2017-05-02T00:00:00-04:00</updated><id>http://localhost:4000/devlog/2017/05/02/SphereKoan-001</id><content type="html" xml:base="http://localhost:4000/devlog/2017/05/02/SphereKoan-001.html">&lt;p&gt;&lt;img src=&quot;/assets/SphereKoan001.jpg&quot; alt=&quot;SphereKoan Design Doc&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I spent most of my time working with porting a different project of mine
-today, but I managed to get a quick design doc out for the proto-type. You can
-see the outline for this very blog post in there. :O!! Scandalous!&lt;/p&gt;
-
-&lt;p&gt;On the topic of funnies, I actually had to look up how to even shade a
-sphere, and spent a good couple of a couple of minutes working on that legendary
-concept art on the left side. It’s very simple, but I feel oddly proud.&lt;/p&gt;
-
-&lt;p&gt;Everything considered, I’m pretty happy with today’s progress. I have gotten
-a lot of different kinds of work done. And Although admittedly not as much as
-I’d like for this project in particular, I’m &lt;em&gt;very&lt;/em&gt; pleasantly surprised
-I managed to get out this first log at all, and with a proper intro too!
-Ohohoho, no corner cutting here. -Harumph-&lt;/p&gt;
-
-&lt;p&gt;Tomorrow I will make sure to take note of balancing the time spent between my
-projects. That fervor must be distributed! No greedies!!&lt;/p&gt;
-
-&lt;p&gt;I’m i.i,&lt;br /&gt;
-and okay bye&lt;/p&gt;</content><author><name></name></author><category term="devlog" /><category term="challenge" /><summary type="html"></summary></entry></feed>
+&lt;p&gt;&lt;small&gt;&lt;em&gt;One last self imposed caveat, DEADLINE: END OF MAY&lt;/em&gt;&lt;/small&gt;&lt;/p&gt;</content><author><name></name></author><category term="article" /><category term="challenge" /><category term="gamefeel" /><summary type="html">Do you ever get that feeling of fervor?</summary></entry></feed>
