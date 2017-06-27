@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="https://eyedoteye.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://eyedoteye.github.io/" rel="alternate" type="text/html" /><updated>2017-06-26T18:25:11-04:00</updated><id>https://eyedoteye.github.io/</id><title type="html">i.i</title><subtitle>Wow check out my cool website.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="https://eyedoteye.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://eyedoteye.github.io/" rel="alternate" type="text/html" /><updated>2017-06-27T13:36:39-04:00</updated><id>https://eyedoteye.github.io/</id><title type="html">i.i</title><subtitle>Wow check out my cool website.
 </subtitle><entry><title type="html">SoundBall #003: Iteration 2 Complete</title><link href="https://eyedoteye.github.io/devlog/2017/06/23/SoundBall-003.html" rel="alternate" type="text/html" title="SoundBall #003: Iteration 2 Complete" /><published>2017-06-23T00:00:00-04:00</published><updated>2017-06-23T00:00:00-04:00</updated><id>https://eyedoteye.github.io/devlog/2017/06/23/SoundBall-003</id><content type="html" xml:base="https://eyedoteye.github.io/devlog/2017/06/23/SoundBall-003.html">&lt;p&gt;This week I’ve finished up the second iteration of this mindful
 sound-piano-thing experiment. And now, for a post-mortem!&lt;/p&gt;
 
@@ -53,6 +53,22 @@ for the player.&lt;/p&gt;
 &lt;a href=&quot;http://i.i.001.run/PlayfulMedia001/&quot;&gt;here&lt;/a&gt;.
 And view the source by clicking
 &lt;a href=&quot;https://github.com/eyedoteye/PlayfulMedia001&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;2017-06-27: I’ve made some usability updates based on initial feedback.
+The rising pitch sound was completely inaudible so I’ve shifted the octave up
+two and increased the sound volume. Also, I realized for some reason I was
+starting the piano roll on a C note. The new piano roll starts on A4.&lt;br /&gt;
+Previously the ball was unable to be picked up by the parts of it that were
+underneath the first note line. This was a leftover from an earlier build were
+that part of the ball was drawn over. This has been fixed.&lt;br /&gt;
+I’ve even gone a step further and allowed the ball to take selection priority
+so it can be picked up even if it’s underneath a piano key.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;This is why playtesting is super important!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;These changes are more of a band-aid than a proper fix. Pure higher frequencies
+tend to evoke an unpleasantness. In the future, I think pitch-shifting a
+flavored tone would be preferable. (Maybe from a sound bowl?)&lt;/em&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 &lt;p&gt;I think I will spend more time exploring heavyness as a separate project. It’s
