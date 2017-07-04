@@ -1,5 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="https://eyedoteye.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://eyedoteye.github.io/" rel="alternate" type="text/html" /><updated>2017-06-27T21:07:29-04:00</updated><id>https://eyedoteye.github.io/</id><title type="html">i.i</title><subtitle>Wow check out my cool website.
-</subtitle><entry><title type="html">SoundBall #003: Iteration 2 Complete</title><link href="https://eyedoteye.github.io/devlog/2017/06/23/SoundBall-003.html" rel="alternate" type="text/html" title="SoundBall #003: Iteration 2 Complete" /><published>2017-06-23T00:00:00-04:00</published><updated>2017-06-23T00:00:00-04:00</updated><id>https://eyedoteye.github.io/devlog/2017/06/23/SoundBall-003</id><content type="html" xml:base="https://eyedoteye.github.io/devlog/2017/06/23/SoundBall-003.html">&lt;p&gt;This week I’ve finished up the second iteration of this mindful
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="https://eyedoteye.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://eyedoteye.github.io/" rel="alternate" type="text/html" /><updated>2017-07-03T20:24:52-04:00</updated><id>https://eyedoteye.github.io/</id><title type="html">i.i</title><subtitle>Wow check out my cool website.
+</subtitle><entry><title type="html">Learning Unity</title><link href="https://eyedoteye.github.io/notice/2017/07/03/Learning-Unity.html" rel="alternate" type="text/html" title="Learning Unity" /><published>2017-07-03T00:00:00-04:00</published><updated>2017-07-03T00:00:00-04:00</updated><id>https://eyedoteye.github.io/notice/2017/07/03/Learning-Unity</id><content type="html" xml:base="https://eyedoteye.github.io/notice/2017/07/03/Learning-Unity.html">&lt;p&gt;So, I began last week, going through the Unity Adventure Tutorial video series.
+Oh man, I think it was a mistake to put so much focus on the video part. They
+were definitely informative, but man I just can &lt;em&gt;not&lt;/em&gt; sit through them. It is
+taking me wayyy longer than it reasonably should to finish just seven vidoes. So
+I’ve re-assesed how &lt;em&gt;I&lt;/em&gt; learn best, and have decided to just jump in, start
+making a game, and start referencing that &lt;em&gt;sweet sweet&lt;/em&gt; documentation. It’s how I’ve
+come to learn all the other concepts I found too difficult in the past, and
+it’ll most certainly be the way I learn unity.&lt;/p&gt;
+
+&lt;p&gt;Thankfully, my drive for discipline has allowed me to push through 90% of the
+content (and just for completion, I’m most definitely going to sit through that
+          last 10%), so I’ve learned quite a bit about how Unity works and some
+of the different tools it has built in. I’ve also been able to set it up with
+git and git-lfs (for the binary assets) and got a vim-like setup working with
+Visual Studio. So I feel supppper ready to start a new project on my own feet.
+I’m not entirely sure what I will make, but I think I will start with a new
+design of SoundBall and see what it develops to from there. Lately, I’ve been
+concerned with the quality of Mobile Games. Psychologically addictive gameplay
+seems to be present even in the ones of good quality. That’s so concerning!&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;Other than that, I think the format of this blog may evolve over time, and I’m
+eager to see how it turns out. Does something like this belong in notice?
+Maybe I just need to find a better name for this category set. Hmmm, we will
+see!&lt;/p&gt;</content><author><name></name></author><category term="notice" /><summary type="html">So, I began last week, going through the Unity Adventure Tutorial video series. Oh man, I think it was a mistake to put so much focus on the video part. They were definitely informative, but man I just can not sit through them. It is taking me wayyy longer than it reasonably should to finish just seven vidoes. So I’ve re-assesed how I learn best, and have decided to just jump in, start making a game, and start referencing that sweet sweet documentation. It’s how I’ve come to learn all the other concepts I found too difficult in the past, and it’ll most certainly be the way I learn unity.</summary></entry><entry><title type="html">SoundBall #003: Iteration 2 Complete</title><link href="https://eyedoteye.github.io/devlog/2017/06/23/SoundBall-003.html" rel="alternate" type="text/html" title="SoundBall #003: Iteration 2 Complete" /><published>2017-06-23T00:00:00-04:00</published><updated>2017-06-23T00:00:00-04:00</updated><id>https://eyedoteye.github.io/devlog/2017/06/23/SoundBall-003</id><content type="html" xml:base="https://eyedoteye.github.io/devlog/2017/06/23/SoundBall-003.html">&lt;p&gt;This week I’ve finished up the second iteration of this mindful
 sound-piano-thing experiment. And now, for a post-mortem!&lt;/p&gt;
 
 &lt;hr /&gt;
@@ -471,59 +495,4 @@ significant.&lt;/p&gt;
 requires further research. Given the new list of details you have now,
 this part should be much easier. If you are still having a hard time, try
 re-visiting the steps on problematic areas and further dissecting and
-simplifying your ideas.&lt;/p&gt;</content><author><name></name></author><category term="article" /><category term="gamedev" /><summary type="html">Now here’s a question: How do you go, from a design document, to a playable prototype? ..Because I certainly have no idea.</summary></entry><entry><title type="html">thatfeelchallenge</title><link href="https://eyedoteye.github.io/article/2017/05/02/thatfeelchallenge.html" rel="alternate" type="text/html" title="thatfeelchallenge" /><published>2017-05-02T00:00:00-04:00</published><updated>2017-05-02T00:00:00-04:00</updated><id>https://eyedoteye.github.io/article/2017/05/02/thatfeelchallenge</id><content type="html" xml:base="https://eyedoteye.github.io/article/2017/05/02/thatfeelchallenge.html">&lt;p&gt;Do you ever get that feeling of fervor?&lt;/p&gt;
-
-&lt;p&gt;When you are so harmonious, so in-tune, with your work, the hours slip by unnoticed? When you find your mind has curled on its own smile? And raw energy crawls out from the corners of your eyes, as the billowing nest within you can no longer contain your enthusiasm? And as your hand moves to complete that next bit of craft, you transcend humanity into the divinity, just for this one moment, just for the joy of your passions, and for the next moment, and the next.. and you never want to stop learning. And you never want to stop growing. And you are in joy with doing that which is naturally avoided, you are in joy with work. YOUR work.&lt;/p&gt;
-
-&lt;p&gt;Do you ever get that feeling, that it might all go away?&lt;/p&gt;
-
-&lt;p&gt;I do.&lt;/p&gt;
-
-&lt;p&gt;And I’ve worked not just so hard, but so persistently,&lt;br /&gt;
-to recover,&lt;br /&gt;
-to recover that feeling I once had as a kid.&lt;br /&gt;
-How does one reclaim, that sustainable fervor?&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;I’m not entirely sure how or why I stumbled onto &lt;a href=&quot;http://www.jenovachen.com/flowingames/thesis.htm&amp;quot;&quot;&gt;Jenova Chen’s thesis on flow&lt;/a&gt;, or why it resonated so strongly with me, so I’m not going to even bother elaborating. Just know that it’s super awesome and somehow brain-synced me into looking at game-design with a new and critical eye. More importantly, it nudged together the seedling threads of design through sense-feeling for me. And for that, I will be ever greatful.&lt;/p&gt;
-
-&lt;p&gt;Curious me I am, as I sit there, harumping through thatgamecompany’s job descriptions. I’ve never actually heard of a Feel Engineer before this, but after reading &lt;a href=&quot;http://thatgamecompany.com/company/jobs/&quot;&gt;&lt;em&gt;what exactly&lt;/em&gt;&lt;/a&gt; that entailed. I just knew.. oh, that’s me. That’s what feels most important to me. &lt;em&gt;That’s&lt;/em&gt; what I feel fervor for.&lt;/p&gt;
-
-&lt;p&gt;..Will I actually go on to work at thatgamecompany? &lt;em&gt;shrug&lt;/em&gt; Don’t know. That’s not what is important to me. What’s important is their sample test sounds like a blast. And one way or another, I’d very much like to get paid to have fun.&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;h3 id=&quot;thatgamecompany-sample-feel-engineer-test&quot;&gt;thatgamecompany sample feel engineer test&lt;/h3&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Submit &lt;strong&gt;a 3D game prototype that uses interaction design and aesthetics to evoke in players a feeling&lt;/strong&gt; of hopefulness. The prototype should feature a central character (not necessarily a person) that navigates through a 3D space.&lt;br /&gt;
-We’re looking for a demonstration of your technical abilities as well as your design sensibilities so &lt;strong&gt;focus on interactive design and moment-to-moment feedback&lt;/strong&gt; that best showcases your taste and skill set. We favor minimalist design, and would prefer to see &lt;strong&gt;a simple concept executed with a high level of polish and a sense of depth&lt;/strong&gt;. Include any additional elements (objects, player mechanics, sound, etc.) as you see fit.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I’ve highlighted my focii in bold. I actually may end up veering towards a hopeful feeling as requested by the description, but it’s just the bare idea of evoking feeling through interaction and simple aesthetic that I find tantalizing. I’m eager to explore any and all emotion(s). But, I’ll hone it down just to one for this project. I’ll develop that more as I explore what the mechanics naturally apparate.&lt;/p&gt;
-
-&lt;p&gt;Now, in addition to that description, a handful of rules and regulations were stapled:&lt;/p&gt;
-
-&lt;p&gt;A couple favored factors,&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;We want to see:&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Emotion through motion and interaction&lt;/li&gt;
-    &lt;li&gt;Technical wonder&lt;/li&gt;
-    &lt;li&gt;Depth of moment-to-moment feedback&lt;/li&gt;
-    &lt;li&gt;Thoughtful, cohesive design choices&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;And a couple stipends,&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Limit reliance on:&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Explicit narrative (characters, plot, objectives)&lt;/li&gt;
-    &lt;li&gt;Detailed models, animations, or textures&lt;/li&gt;
-    &lt;li&gt;World/level layout&lt;/li&gt;
-    &lt;li&gt;..write your demo in C or C++ or Javascript/WebGL rather than using an off-the-shelf engine.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;All in all, everything I wanted to do. I’m in. This project will be done in C.&lt;/p&gt;
-
-&lt;p&gt;&lt;small&gt;&lt;em&gt;One last self imposed caveat, DEADLINE: END OF MAY&lt;/em&gt;&lt;/small&gt;&lt;/p&gt;</content><author><name></name></author><category term="article" /><category term="challenge" /><category term="gamefeel" /><summary type="html">Do you ever get that feeling of fervor?</summary></entry></feed>
+simplifying your ideas.&lt;/p&gt;</content><author><name></name></author><category term="article" /><category term="gamedev" /><summary type="html">Now here’s a question: How do you go, from a design document, to a playable prototype? ..Because I certainly have no idea.</summary></entry></feed>
