@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>About</title>
-  <meta name="description" content="Wow check out my cool website.">
+  <title>SoundBall #001</title>
+  <meta name="description" content="I’m still thinking about the format for my posts on the site, and how to find a balance between the commitment effort for each category type. I think I want ...">
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="https://eyedoteye.github.io/about/">
+  <link rel="canonical" href="https://eyedoteye.github.io/devlog/2017/06/10/SoundBall-001.html">
   <link rel="alternate" type="application/rss+xml" title="i.i" href="/feed.xml">
   <link rel="icon" type="image/png" href="/assets/MyFace.png">
 </head>
@@ -63,36 +63,80 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <article class="post">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title">About</h1>
+    <h1 class="post-title" itemprop="name headline">SoundBall #001</h1>
+    <p class="post-meta">
+      <time datetime="2017-06-10T00:00:00-04:00" itemprop="datePublished">
+        
+        Jun 10, 2017
+      </time>
+      </p>
   </header>
 
-  <div class="post-content">
-    <p>i.i is a perceptual lense through which Krishnan Sarkar habitually sees.</p>
-
-<p>I am Krishnan Sarkar, an enthusiast of playful media, but furthermore, of <em>joy</em>.</p>
-
-<hr />
-<p>Current Interest: Gamefeel &amp; Mindfulness<br />
-Alumni of Recurse Center; Batch: Winter 1, 2016</p>
-
-<p>See <a href="https://github.com/eyedoteye">GitHub Profile</a> for portfolio.</p>
+  <div class="post-content" itemprop="articleBody">
+    <p>I’m still thinking about the format for my posts on
+the site, and how to find a balance between the commitment effort for each
+category type. I think I want the articles to be even more fleshed out than they
+are now, but I’d like the devlogs to be easier to just jot some thoughts into.
+At the same time, I don’t want to leave without at least some interesting things
+to give!</p>
 
 <hr />
-<blockquote>
-  <p><strong>The Skillful Choice Of<br />
-The Three Displines</strong></p>
-  <ol>
-    <li>Discipline of Personal Growing</li>
-    <li>Discipline of Peer Strengthening</li>
-    <li>Discipline of Public Educating</li>
-  </ol>
-</blockquote>
+<p>So I’ve been working on some <em>Playful Media</em> lately. Have been using javascript,
+and boy oh boy are there some weird tradeoffs. Things are easier to get runing
+on the screen, but the screen is wonky, and the latency is wonky, and the wonk
+is wonky. BUT, I’ve been making some good progress with wrenching out all those
+wonks!</p>
+
+<p>This was my first iteration of the project:</p>
+
+<p><img src="/assets/SoundBall001A.gif" alt="SoundBall First Iteration" class="img-responsive" /></p>
+
+<p>The gradient represents rising sound frequencies, and the ball is used to select
+which one will currently be played through the speakers. The slider on the
+bottom swaps between a linear view of the frequencies and a view that groups the
+frequencies into constant pianokey widths (represented by the white lines).</p>
+
+<p>At this point, I realized the current direction of things didn’t really feel
+like it was teaching me about the relationship between frequencies and notes.
+I wanted to create an experience that gave an intuitive and wordless
+understanding! So, I pulled out some paper and began thinking about some actual
+design:</p>
+
+<p><img src="/assets/SoundBall001B.jpg" alt="SoundBall Design Doc" class="img-responsive" /></p>
+
+<p>Re-iterating was a breeze thanks to the understanding and helpful functions I
+developed during the first exploration. However, still being new to canvas-dev,
+I encountered a lot of resistance on getting it to work properly with
+mobile.</p>
+
+<p>The touch was unresponsive, the canvas was offscreen, and even when I get
+everything to work, the latency was cray!</p>
+
+<p>Despite all that, I had a lot of fun navigating through the challenges. And, I’m
+back to a point where I can focus again on <em>how to make a virtual ball feel
+heavy</em>. A topic I’m really excited to write about later!</p>
+
+<p>The current iteration:</p>
+
+<p><img src="/assets/SoundBall001C.jpg" alt="SoundBall Second Iteration" class="img-responsive" /></p>
+
+<hr />
+<p>I’m taking this weekend to do a little exploration into unity. Since latency is
+so essential to gamefeel, I’m hoping I can get more performant prototypes
+through their system instead…<br />
+I’ve actually been trying to do less code over the weekend and more reading,
+mindfulness, etc, but that mental context switching is a skill still on its
+training wheels!</p>
+
+<p>I’m i.i,<br />
+and okay bye</p>
 
   </div>
 
+  
 </article>
 
       </div>
