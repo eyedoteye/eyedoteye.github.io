@@ -1,5 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.5">Jekyll</generator><link href="https://eyedoteye.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://eyedoteye.github.io/" rel="alternate" type="text/html" /><updated>2017-07-26T13:00:54-04:00</updated><id>https://eyedoteye.github.io/</id><title type="html">i.i</title><subtitle>Wow check out my cool website.
-</subtitle><entry><title type="html">Discipline</title><link href="https://eyedoteye.github.io/notice/2017/07/17/Discipline.html" rel="alternate" type="text/html" title="Discipline" /><published>2017-07-17T00:00:00-04:00</published><updated>2017-07-17T00:00:00-04:00</updated><id>https://eyedoteye.github.io/notice/2017/07/17/Discipline</id><content type="html" xml:base="https://eyedoteye.github.io/notice/2017/07/17/Discipline.html">&lt;p&gt;It’s been almost a year now, a year since I’ve shifted my perspective. Shifted
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.5">Jekyll</generator><link href="https://eyedoteye.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://eyedoteye.github.io/" rel="alternate" type="text/html" /><updated>2017-07-26T13:19:59-04:00</updated><id>https://eyedoteye.github.io/</id><title type="html">i.i</title><subtitle>Wow check out my cool website.
+</subtitle><entry><title type="html">The Audience And The Self</title><link href="https://eyedoteye.github.io/notice/2017/07/26/The-Audience-And-The-Self.html" rel="alternate" type="text/html" title="The Audience And The Self" /><published>2017-07-26T00:00:00-04:00</published><updated>2017-07-26T00:00:00-04:00</updated><id>https://eyedoteye.github.io/notice/2017/07/26/The-Audience-And-The-Self</id><content type="html" xml:base="https://eyedoteye.github.io/notice/2017/07/26/The-Audience-And-The-Self.html">&lt;p&gt;Today I’ve removed Google Analytics from my site.&lt;/p&gt;
+
+&lt;p&gt;A friend and I,&lt;br /&gt;
+we had this discussion,&lt;br /&gt;
+on The Audience Effect.&lt;br /&gt;
+That when something is done for an audience, it changes.&lt;br /&gt;
+It changes how you work, and it changes the result.&lt;/p&gt;
+
+&lt;p&gt;Of course, there is always an audience.&lt;br /&gt;
+It is just the recognition of the audience,&lt;br /&gt;
+and your relationship with that recognition&lt;br /&gt;
+that changes you.&lt;/p&gt;
+
+&lt;p&gt;My current search for work shifts that relationship.&lt;br /&gt;
+With the introduction of analytics, I had, overtime,&lt;br /&gt;
+lost sight of my audience from that of the lone children seeking inspiration,&lt;br /&gt;
+to validation by page hits from the studio I just set out an e-mail to.&lt;/p&gt;
+
+&lt;p&gt;What it marred the most though, was my motivation.&lt;br /&gt;
+I no longer felt like creating work.&lt;br /&gt;
+So now,&lt;br /&gt;
+I shift away again from rising numbers,
+and into that place of creation that gives me purpose.&lt;/p&gt;
+
+&lt;p&gt;I do it for the children like me in the future.&lt;br /&gt;
+Whom I hope will come to do the same,&lt;br /&gt;
+for the children in the future of theirs.&lt;/p&gt;
+
+&lt;p&gt;Love,&lt;br /&gt;
+i.i&lt;/p&gt;</content><author><name></name></author><category term="notice" /><summary type="html">Today I’ve removed Google Analytics from my site.</summary></entry><entry><title type="html">Discipline</title><link href="https://eyedoteye.github.io/notice/2017/07/17/Discipline.html" rel="alternate" type="text/html" title="Discipline" /><published>2017-07-17T00:00:00-04:00</published><updated>2017-07-17T00:00:00-04:00</updated><id>https://eyedoteye.github.io/notice/2017/07/17/Discipline</id><content type="html" xml:base="https://eyedoteye.github.io/notice/2017/07/17/Discipline.html">&lt;p&gt;It’s been almost a year now, a year since I’ve shifted my perspective. Shifted
 my focus to that of being disciplined. Shifted my sight to that of the motion of
 things rather than the end points. It was exercise I think.. or was it
 Buddhism.. or was it both? Some kind of vector. It was pushing me. Pushing me
@@ -456,35 +485,4 @@ to be human, that the supposed nonsufferers look to you in awe, in how a tree
 that extends &lt;em&gt;so&lt;/em&gt; far above the clouds can remain so stable. And as they
 reach to enjoy the passions in your fruit, you unfurl your branch, and you
 whisper to them your secret:&lt;br /&gt;
-“When I fell, I grew &lt;em&gt;twice&lt;/em&gt; as hard.”&lt;/p&gt;</content><author><name></name></author><category term="article" /><category term="mental-health" /><category term="inspiration" /><summary type="html">For those that know me more personally, they know I’ve struggled with some pretty bad juju when it comes to mental health. And it wasn’t without a strong will, extensive therapy, medicine, and the support of some really great people that I’ve been able to recover and transform my life into a positive direction.</summary></entry><entry><title type="html">SphereKoan #002</title><link href="https://eyedoteye.github.io/devlog/2017/05/09/SphereKoan-002.html" rel="alternate" type="text/html" title="SphereKoan #002" /><published>2017-05-09T00:00:00-04:00</published><updated>2017-05-09T00:00:00-04:00</updated><id>https://eyedoteye.github.io/devlog/2017/05/09/SphereKoan-002</id><content type="html" xml:base="https://eyedoteye.github.io/devlog/2017/05/09/SphereKoan-002.html">&lt;p&gt;I spent most of the week rummaging through cpp-con talks and handmade hero
-videos for superior ways of approaching game programming. Games tend to work
-best with: Production usage code first, fast failing, and compilation time type
-checking. However, I think there are pieces and lessons from test-driven
-development and contract-driven development that can be leveraged for a superior
-overall dev experience. I may elaborate on them at a later time, as I haven’t
-truly been able to test my thoughts.&lt;/p&gt;
-
-&lt;p&gt;A lot of the notes I’ve taken since last week are repetitive and
-half-thoughts. That’s just kind of part of the process. I’ve included here two
-of the more refined pages I’ve managed to collect.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/SphereKoan002A.jpg&quot; alt=&quot;SphereKoan Design Doc&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This is the Moments &amp;amp; Systems outline. When I first started writing this out,
-I honestly had no idea what I was doing, just that I was doing it neatly, and
-that somehow made me feel like I was doing something right. Pro strats.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/SphereKoan002B.jpg&quot; alt=&quot;SphereKoan Design Doc&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Here I’m starting to delve in and really explore the controls. Having to
-write them down like this helped me identify a couple problem areas that I
-didn’t really see when I first started. I think an important thing to note is
-that during this process I’m also being very mindful of how the 3D controls
-relate to the 2D controls.&lt;/p&gt;
-
-&lt;p&gt;And on that note, I’ve started taking a mindfulness course from coursera!
-In addition to improving my daily life, I think it will be very useful once I
-get to the iterative aspect of game design (Also, I strongly believe that positive health in creative fields needs to be discussed and encouraged much much more, but that’s a topic for another day).&lt;/p&gt;
-
-&lt;p&gt;I’m i.i,&lt;br /&gt;
-and okay bye&lt;/p&gt;</content><author><name></name></author><category term="devlog" /><category term="challenge" /><summary type="html">I spent most of the week rummaging through cpp-con talks and handmade hero videos for superior ways of approaching game programming. Games tend to work best with: Production usage code first, fast failing, and compilation time type checking. However, I think there are pieces and lessons from test-driven development and contract-driven development that can be leveraged for a superior overall dev experience. I may elaborate on them at a later time, as I haven’t truly been able to test my thoughts.</summary></entry></feed>
+“When I fell, I grew &lt;em&gt;twice&lt;/em&gt; as hard.”&lt;/p&gt;</content><author><name></name></author><category term="article" /><category term="mental-health" /><category term="inspiration" /><summary type="html">For those that know me more personally, they know I’ve struggled with some pretty bad juju when it comes to mental health. And it wasn’t without a strong will, extensive therapy, medicine, and the support of some really great people that I’ve been able to recover and transform my life into a positive direction.</summary></entry></feed>
