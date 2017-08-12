@@ -250,6 +250,7 @@ pre {
 
 .texts-list {
   position: relative;
+  right: 5%;
   border-collapse: collapse; }
   .texts-list > tbody > tr:hover {
     background-color: beige;
@@ -259,16 +260,14 @@ pre {
 .texts-list-date {
   text-align: right;
   font-size: 10.5px;
-  opacity: .5; }
-
-.texts-list-date + .texts-list-divider {
-  opacity: .5; }
+  opacity: .5;
+  width: 10%; }
 
 .texts-list-name {
   text-align: center;
-  width: 27%;
   padding-right: 1em;
-  padding-left: 1em; }
+  padding-left: 1em;
+  width: 45%; }
 
 /**
  * Page content
