@@ -22,7 +22,7 @@
             {
                 case 0:
                 {
-                    message.textContent = "Work In Progress";
+                    message.textContent = "i .i";
                 } break;
                 case 1:
                 {
@@ -35,22 +35,22 @@
                 } break;
                 case 3:
                 {
-                    message.textContent = "(o  .  o)";
+                    message.textContent = "i . i";
                 } break;
             }
+
+            message.textContent = message.textContent +  " | " + setMessage2();
         }
 
         function setMessage2()
         {
-            let message = document.getElementById("age");
-
             let array = new Uint32Array(3);
             self.crypto.getRandomValues(array);
             let firstDigit = (array[0] % 9 + 1).toString();
             let secondDigit = (array[1] % 50 * 2).toString();
             let thirdDigit = (array[2] % 10 * 10).toString();
             
-            message.textContent = firstDigit + secondDigit + thirdDigit;
+            return firstDigit + secondDigit + thirdDigit;
         }
         </script>
         <style>
@@ -97,7 +97,7 @@
             .LinkButton > a {
                 font-size: 25pt;
                 text-decoration: none;
-                font-family:'Courier New', Courier, monospace;
+                font-family: monospace;
                 color:white;
             }
 
@@ -110,7 +110,7 @@
                 height: 100%;
             }
 
-            .Header {
+            .Title {
                 width: 500px;
                 border-top: double;
                 border-width: 5px;
@@ -119,6 +119,7 @@
                 font-family:'Courier New', Courier, monospace;
                 color:black;
                 background-color: white;
+                font-weight: bold;
             }
 
             .Banner > img {
@@ -190,7 +191,7 @@
                 </script>
             </div>
             <div class="Menu">
-                <div class="Header">
+                <div class="Title">
                     Socials
                 </div>
                 <div class="Segment">
@@ -209,7 +210,7 @@
                 </div>
             </div>
             <div class="Menu">
-                <div class="Header">
+                <div class="Title">
                     i.i
                 </div>
                 <div class="Banner">
