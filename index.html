@@ -1,7 +1,233 @@
+<!DOCTYPE html>
 <html>
-  <head>
-  </head>
-  <body>
-    w i p
-  </body>
+    <head>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
+        <title>
+            i.i
+        </title>
+        <script>
+            
+        function setMessage()
+        {
+            let message = document.getElementById("marquee");
+            
+            //let entropy = Math.floor(Math.random() * 4);
+            let array = new Uint32Array(1);
+            self.crypto.getRandomValues(array);
+            let entropy = array[0] % 4;
+            console.log(entropy);
+
+            switch(entropy)
+            {
+                case 0:
+                {
+                    message.textContent = "Work In Progress";
+                } break;
+                case 1:
+                {
+                    message.textContent = "u.u";
+                } break;
+                case 2:
+                {
+                    // This message is my own.
+                    message.textContent = "i.i";
+                } break;
+                case 3:
+                {
+                    message.textContent = "(o  .  o)";
+                } break;
+            }
+        }
+
+        function setMessage2()
+        {
+            let message = document.getElementById("age");
+
+            let array = new Uint32Array(3);
+            self.crypto.getRandomValues(array);
+            let firstDigit = (array[0] % 9 + 1).toString();
+            let secondDigit = (array[1] % 50 * 2).toString();
+            let thirdDigit = (array[2] % 10 * 10).toString();
+            
+            message.textContent = firstDigit + secondDigit + thirdDigit;
+        }
+        </script>
+        <style>
+            .Website {
+                text-align: center;
+            }
+
+            .Menu {
+                width:506px;
+                margin: 10px auto;
+                background-color: #000000;
+                background-image: linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0)), linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0));
+                background-size:	3px 100%;
+                background-position: 0 0, 100% 0;
+                background-repeat:	no-repeat;
+                padding-bottom:10px;
+            }
+
+            .Segment {
+                text-align:center;
+                margin: 0 auto;
+                margin: 1vw;
+            }
+            .SegmentInfo {
+                text-align:left;
+                margin: 0 auto;
+                border-style: hidden;
+                margin: 1vw;
+                padding: 0vw .5vw;
+                font-size: x-large;
+                font-family: 'Calibri', 'serif';
+            }
+
+            .LinkButton {
+                padding: .10%;
+                background-color:#6ea8ff7e;
+                border-radius: inherit;
+            }
+
+            .LinkButton:hover {
+                background-color:#0534cf81;               
+            }
+
+            .LinkButton > a {
+                font-size: 25pt;
+                text-decoration: none;
+                font-family:'Courier New', Courier, monospace;
+                color:#ffc335;
+            }
+
+            .LinkButton > a:visited {
+                color: #ffc335;
+            }
+
+            .Fullbutton {
+                width: 100%;
+                height: 100%;
+            }
+
+            .Header {
+                width: 500px;
+                border-top: double;
+                border-width: 5px;
+                margin: auto;
+                text-align:center;
+                font-family:'Courier New', Courier, monospace;
+                color:rgb(0, 0, 0);
+                background-color: white;
+            }
+
+            .Banner > img {
+                width: 500px;
+                margin: 0 3px;
+            }
+
+            body{
+                background-color:#e0c54f;
+                background-image: url("bg.png");
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                color:rgb(230, 230, 230);
+            }
+
+            .Tweets{
+                margin-left:3px;
+            }
+
+            .Footer {
+                text-align: center;
+                padding-bottom: .1vw;
+                font-family: 'Calibri', 'serif';
+            }
+
+            @media only screen and (hover: none) and (pointer: coarse) {
+
+                .Menu {
+                    width:100%;
+                    margin: 10px auto;
+                    background-color: #00000000;
+                    background-image: linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0)), linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0));
+                    background-size:	3px 100%;
+                    background-position: 0 0, 100% 0;
+                    background-repeat:	no-repeat;
+                    padding-bottom:10px;
+                }
+
+                    .Header {
+                    width: -webkit-calc(100% - 6px);
+                    width:    -moz-calc(100% - 6px);
+                    width:         calc(100% - 6px);
+                    border-top: double;
+                    border-width: 5px;
+                    margin: auto;
+                    text-align:center;
+                    font-family:'Courier New', Courier, monospace;
+                    background-color: white;
+                }
+
+                .Banner > img {
+                    width: -webkit-calc(100% - 6px);
+                    width:    -moz-calc(100% - 6px);
+                    width:         calc(100% - 6px);
+                    margin: 0 3px;
+                }
+
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="Website">
+            <div class="Segment">
+                <marquee behavior="alternate" scrollamount="42" scrolldelay="777"><i id="marquee"></i></marquee>
+                <script>
+                    setMessage();
+                </script>
+            </div>
+            <div class="Menu">
+                <div class="Header">
+                    Socials
+                </div>
+                <div class="Segment">
+                    <div class="LinkButton">
+                        <a href="https://twitter.com/eyedoteye">
+                            <div class="Fullbutton">twitter</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="Segment">
+                    <div class="LinkButton">
+                        <a href="https://ii.itch.io/">
+                            <div class="Fullbutton">itchio</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="Menu">
+                <div class="Header">
+                    i.i
+                </div>
+                <div class="Banner">
+                    <img src="me.png">
+                </div>
+                <div class="SegmentInfo">
+                    <p><b>Koan from Buddhism</b></p>
+                    <p class="SegmentInfo"><i>
+                        <b>The Stone Mind</b><br>
+                        Hogen, a Chinese Zen teacher, lived alone in a small temple in the country. One day four traveling monks appeared and asked if they might make a fire in his yard to warm themselves.
+                        While they were building the fire, Hogen heard them arguing about subjectivity and objectivity. He joined them and said: "There is a big stone. Do you consider it to be inside or outside your mind?"
+                        One of the monks replied: "From the Buddhist viewpoint everything is an objectification of mind, so I would say that the stone is inside my mind."
+                        "Your head must feel very heavy," observed Hogen, "if you are carrying around a stone like that in your mind."
+                    </i>
+                </div>
+            </div>
+            <div class="Footer">
+                i.i - All Rights Reserved 
+            </div>
+        </div>
+    </body>
 </html>
